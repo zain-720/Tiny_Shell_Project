@@ -1,0 +1,4 @@
+#
+# trace19.txt - Pipe ls output to sort to display sorted directory contents.
+#
+/bin/ls | /bin/sort

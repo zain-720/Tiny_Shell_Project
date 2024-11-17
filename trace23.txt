@@ -1,0 +1,4 @@
+#
+# Trace test 23: Sort environment variables and count unique entries.
+#
+/usr/bin/printenv | /usr/bin/sort | /usr/bin/uniq | /usr/bin/wc -l

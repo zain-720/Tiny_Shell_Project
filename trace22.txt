@@ -1,0 +1,5 @@
+#
+# trace22.txt - Check if sorting a sequence of numbers works correctly.
+#
+/bin/echo -e "3\n1\n4\n1\n5" | /usr/bin/sort
+

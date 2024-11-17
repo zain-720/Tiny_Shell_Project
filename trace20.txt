@@ -1,0 +1,4 @@
+#
+# trace20.txt - List directory entries, filter for directories, count them.
+#
+/bin/ls -l | /bin/grep "^d" | /bin/wc -l

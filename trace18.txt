@@ -1,0 +1,5 @@
+#
+# trace18 - Pipe echo to tr to convert lowercase to uppercase.
+#
+
+/bin/echo "hello" | /bin/tr '[:lower:]' '[:upper:]'

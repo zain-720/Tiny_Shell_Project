@@ -1,0 +1,4 @@
+#
+# Trace test 24: Echo multiple lines of text and count 'shell' occurrences.
+#
+/bin/echo -e "shell scripting\nbash shell\nzsh shell\nfish shell" | /bin/grep shell | /usr/bin/wc -l

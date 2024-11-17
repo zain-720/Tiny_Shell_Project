@@ -1,0 +1,4 @@
+#
+# Trace test 21: Concatenate text and count words.
+#
+/bin/echo "Hello from tsh shell" | /usr/bin/wc -w
